@@ -1,0 +1,133 @@
+body {
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    color: #202124;;
+}
+
+.header {
+    
+    height: 60px;
+    justify-content: flex-end;
+    padding: 6px;
+}
+
+.contentheader {
+    height: 48px;
+    float: right;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 4px;
+}
+.textheader {
+    display: flex;
+    flex-direction: row;
+    justify-items: space-between;
+}
+
+.textheader p {
+    padding-left: 10px;
+    padding-right: 10px;
+    font: 13px/27px Roboto,Arial,sans-serif;
+}
+
+.iconsheader {
+    padding: 4px;
+}
+
+.gb_j, .imgprofil{
+    box-sizing: border-box;
+    width: 40px;
+    height: 40px;
+    outline: 1px solid #ff62ab!important;
+    font: 13px/27px Roboto,Arial,sans-serif;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+
+
+.imgprofil{
+    padding: 4px;
+}
+
+.googleimgcontainer {
+    display: flex;
+    max-height: 92px;
+    align-items: center;
+    justify-content: center;
+}
+.googleimg {
+    height: 92px;
+    object-fit: contain;
+}
+
+/* Formulaire */
+
+#formulaire {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.formulairefr {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+}
+
+.iconsearch, .microicon, .photoicon {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-content: center;
+    margin: 5px;
+}
+.txtarea {
+    width: 440px;
+    height: 35px;
+    border-radius: 30px;
+    border: none;
+    resize: none;
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    background-color: transparent;
+    font-family: Arial, sans-serif;
+    color: rgba(0, 0, 0, .87);
+    line-height: 34px;
+}
+
+.afterform {
+    /* width: 584px;
+    height: 58px; */
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+
+.afterform span {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0px 16px;
+    height: 36px;
+    /* min-width: 54px; */
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
